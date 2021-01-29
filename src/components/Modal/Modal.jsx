@@ -3,6 +3,7 @@ import ReactDom from "react-dom";
 import "./Modal.css";
 import GithubLogo from "./images/github.svg";
 import LinkDinLogo from "./images/linkedin.svg";
+import Close from "./images/close.svg";
 import Copy from "./images/copy.svg";
 function Modal({ isOpen, setOpen }) {
   const [copyOne, setCopy1] = useState(false);
@@ -23,9 +24,14 @@ function Modal({ isOpen, setOpen }) {
   return ReactDom.createPortal(
     <div className="modal__inner">
       <div className="main__modal">
-        <p className="close__btn" onClick={() => setOpen(false)}>
-          +
-        </p>
+        {/* <p className="close__btn" onClick={() => setOpen(false)}> */}
+        <img
+          className="close__btn"
+          onClick={() => setOpen(false)}
+          src={Close}
+          alt=""
+        />
+        {/* </p> */}
         <div className="Apne__links">
           <div className="links__inner">
             <div className="inner__textarea">

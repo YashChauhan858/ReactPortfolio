@@ -33,15 +33,26 @@ function App() {
         <div className="About__me__info">
           <div className="heading__gif">
             <img
+              data-aos="fade-right"
+              data-aos-easing="ease-in"
+              data-aos-duration="500"
               src="https://media.giphy.com/media/l0NwC1UnHzAHfC50c/giphy.gif"
               alt="img"
             />
-            <h1>
+            <h1
+              data-aos="fade-left"
+              data-aos-easing="ease-in"
+              data-aos-duration="500"
+            >
               Hi! My name <br />
               is Yash Chauhan.
             </h1>
           </div>
-          <p>
+          <p
+            data-aos="zoom-in"
+            data-aos-easing="ease-in"
+            data-aos-duration="500"
+          >
             I the type of guy who is fascinated by the power of code and how
             much it is changing the shape of our existence and our reality as a
             human and how much it has boosted and will be boosting our growth.

@@ -13,7 +13,7 @@ function WhatIknow() {
   return (
     <div className="info__container">
       <div className="whatiknow">
-        <h2>Things that I have worked on</h2>
+        <h2>THINGS THAT I HAVE WORKED ON</h2>
         <div className="container">
           <div className="img__container">
             <img

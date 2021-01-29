@@ -12,7 +12,9 @@ body {
 html {
   font-size: 62.5%;
 }
-
+button {
+  outline: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

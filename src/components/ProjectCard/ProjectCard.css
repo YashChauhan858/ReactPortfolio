@@ -135,6 +135,11 @@
 .portfolio__icon {
   height: 3rem;
 }
+@media (min-width: 768px) {
+  .projectCard {
+    width: 60%;
+  }
+}
 @media (min-width: 840px) {
   .projectCard {
     width: 52%;

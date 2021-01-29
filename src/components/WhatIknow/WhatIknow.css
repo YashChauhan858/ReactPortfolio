@@ -1,8 +1,8 @@
 .info__container {
   width: 100%;
-  background-image: url("./images/background.jpg");
-  background-position: 0% 10%;
-  background-repeat: repeat;
+  background-image: url("./images/bg.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 0.5rem;
@@ -20,6 +20,7 @@
 
 .whatiknow > h2 {
   color: white;
+  letter-spacing: 0.3rem;
 }
 .container {
   display: flex;

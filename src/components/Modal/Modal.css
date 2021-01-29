@@ -24,10 +24,12 @@
 }
 .close__btn {
   position: absolute;
-  right: 1.2rem;
-  top: 1.2rem;
+  right: 0.5rem;
+  top: 0.5rem;
+  object-fit: contain;
+  height: 2.5rem;
   color: #66fcf6;
-  transform: scale(6) rotate(45deg);
+  /* transform: rotate(45deg); */
   cursor: pointer;
 }
 .Apne__links {

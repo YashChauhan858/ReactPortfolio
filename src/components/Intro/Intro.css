@@ -1,15 +1,133 @@
 :root {
   --text__color: #66fcf6;
-  /* --text__color: white; */
+  /* layer Height */
+  --layer1__height: 4.1rem;
+  --layer2__height: 2.8rem;
+  --layer3__height: 2rem;
 }
 
 .intro {
-  background-image: url("../../images/introMobile.jpg");
-  background-position: 0% 58%;
-  background-size: cover;
+  background-color: #0b0c10;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+/* bg img */
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.bg-img > img {
+  position: absolute;
+}
+/* layer0 */
+.star {
+  top: 4rem;
+  height: 6rem;
+  left: 1rem;
+  transition: left 1100ms ease-in-out;
+}
+/* layer1 --> layer2 --> layer3 */
+/* layer 1 */
+.layer1 {
+  height: var(--layer1__height);
+}
+.Edmodel {
+  bottom: 2rem;
+  left: 1rem;
+  transition: left 1500ms ease-in-out;
+}
+.plus {
+  top: 14rem;
+  left: 9rem;
+  transition: left 1500ms ease-in-out;
+}
+.bgTriangle {
+  bottom: 3rem;
+  right: 5rem;
+  transition: right 1500ms ease-in-out;
+}
+.dtriangle {
+  bottom: -4.5rem;
+  right: 1rem;
+  transition: right 1500ms ease-in-out;
+}
+.custom {
+  top: 18rem;
+  right: 0.1rem;
+  transition: right 1500ms ease-in-out;
+}
+/* layer2 */
+.layer2 {
+  height: var(--layer2__height);
+}
+.bgAtom {
+  top: 2rem;
+  right: 15rem;
+  transition: right 1000ms ease-in-out;
+}
+.hexagon {
+  top: 12rem;
+  right: 9rem;
+  transition: right 1000ms ease-in-out;
+}
+.bgCircle {
+  bottom: 9rem;
+  left: 7rem;
+  transition: left 1000ms ease-in-out;
+}
+.bgCross {
+  top: 5rem;
+  left: 13rem;
+  transition: left 1000ms ease-in-out;
+}
+.hiddenLeaf {
+  top: 5rem;
+  right: 3rem;
+  transition: right 1000ms ease-in-out;
+}
+/* layer 3 */
+.layer3 {
+  height: var(--layer3__height);
+}
+.dragonball {
+  top: 6rem;
+  right: 12rem;
+  transition: all 500ms ease-in-out;
+}
+.wingsOfFreedom {
+  top: 16rem;
+  left: 3rem;
+  transition: left 500ms ease-in-out;
+}
+.darkLogo {
+  bottom: 9rem;
+  right: 10rem;
+  transition: right 500ms ease-in-out;
+}
+/* layer4 */
+.bg--small {
+  height: 1.2rem;
+  filter: invert(16%) sepia(5%) saturate(2925%) hue-rotate(190deg)
+    brightness(91%) contrast(91%);
+}
+/* layer 4 */
+.posiStar {
+  top: 9rem;
+  left: 7rem;
+  transition: left 1500ms ease-in-out;
+}
+.posiBgTriangle {
+  top: 15rem;
+  right: 4.5rem;
+  transition: right 1500ms ease-in-out;
 }
 /* Header styling */
 .intro__header {
@@ -94,12 +212,12 @@
 .ina__image {
   height: 10rem;
   width: 10rem;
-  background-color: var(--text__color);
+  border: 0.1rem solid var(--text__color);
   border-radius: 50%;
-  background-image: url("./me.png");
-  background-size: contain;
+  background-image: url("./images/me.png");
+  background-size: 85%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 10%;
 }
 
 .ina__aboutme {
@@ -143,16 +261,148 @@
   font-weight: 600;
 }
 .eye {
-  filter: invert(91%) sepia(13%) saturate(5176%) hue-rotate(160deg)
-    brightness(108%) contrast(111%);
   height: 1.2rem;
   transform: rotate(19deg);
 }
+/* background shapes for ipad lvl width */
+@media (min-width: 768px) {
+  /* 2 */
+  .star {
+    left: 6rem;
+  }
+  /* layer 1 */
+  .layer1 {
+    height: var(--layer1__height);
+  }
+  .Edmodel {
+    left: 12rem;
+  }
+  .plus {
+    left: 19rem;
+  }
+  .bgTriangle {
+    right: 15rem;
+  }
+  .dtriangle {
+    right: 11rem;
+  }
+  .custom {
+    right: 1.1rem;
+  }
+  /* layer 2 */
+  .layer2 {
+    height: var(--layer2__height);
+  }
+  .bgAtom {
+    right: 26rem;
+  }
+  .hexagon {
+    right: 19rem;
+  }
+  .bgCircle {
+    left: 22rem;
+  }
+  .bgCross {
+    left: 23rem;
+  }
+  .hiddenLeaf {
+    right: 13rem;
+  }
+  /* layer 3 */
+  .layer3 {
+    height: var(--layer3__height);
+  }
+  .dragonball {
+    right: 5rem;
+  }
+  .wingsOfFreedom {
+    left: 3rem;
+  }
+  .darkLogo {
+    right: 8rem;
+  }
+  /* layer 4 */
+  .posiStar {
+    top: 9rem;
+    left: 17rem;
+  }
+  .posiBgTriangle {
+    bottom: 9rem;
+    right: 27rem;
+  }
+  .dropbtn {
+    border-radius: 0.3rem;
+  }
+  .contactMe {
+    border-radius: 0.3rem;
+  }
+}
 @media (min-width: 840px) {
-  .intro {
-    background-position: 0% 55%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* 2 */
+  .star {
+    left: 27rem;
+  }
+  /* layer 1 */
+  .layer1 {
+    height: var(--layer1__height);
+  }
+  .Edmodel {
+    left: 32rem;
+  }
+  .plus {
+    left: 39rem;
+  }
+  .bgTriangle {
+    right: 35rem;
+  }
+  .dtriangle {
+    right: 51rem;
+  }
+  .custom {
+    right: 33.1rem;
+  }
+  /* layer 2 */
+  .layer2 {
+    height: var(--layer2__height);
+  }
+  .bgAtom {
+    right: 56rem;
+  }
+  .hexagon {
+    right: 59rem;
+  }
+  .bgCircle {
+    left: 52rem;
+  }
+  .bgCross {
+    left: 53rem;
+  }
+  .hiddenLeaf {
+    right: 43rem;
+  }
+  /* layer 3 */
+  .layer3 {
+    height: var(--layer3__height);
+  }
+  .dragonball {
+    right: 45rem;
+    top: 15rem;
+  }
+  .wingsOfFreedom {
+    left: 33rem;
+    top: 30rem;
+  }
+  .darkLogo {
+    right: 55rem;
+  }
+  /* layer 4 */
+  .posiStar {
+    top: 19rem;
+    left: 60rem;
+  }
+  .posiBgTriangle {
+    top: 30rem;
+    right: 417rem;
   }
   .intro__header {
     padding: 0rem 30rem;
@@ -178,8 +428,6 @@
     font-size: 1.8rem;
   }
   .quote {
-    margin-top: -5rem;
-    margin-bottom: 5rem;
     font-weight: 800;
     font-size: 2rem;
   }
@@ -191,12 +439,11 @@
     font-size: 1.2rem;
     padding: 1rem 2.5rem;
     border: 0.3rem solid var(--text__color);
-    border-radius: 0rem;
+    border-radius: 0.3rem;
     transition: all 350ms ease-in;
   }
   .contactMe:hover {
     background-color: var(--text__color);
-
     color: black;
   }
 
@@ -205,6 +452,7 @@
     margin: 0 auto;
     justify-content: center;
     margin-top: -5rem;
+    margin-bottom: 5rem;
     padding-right: 6rem;
     padding-bottom: 1rem;
   }
@@ -217,6 +465,6 @@
   }
   .intro__tagline:hover .eye {
     transition: transform 2000ms ease-in-out;
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }

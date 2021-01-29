@@ -134,6 +134,11 @@
     transform: rotate(15deg) scale(0.3);
   }
 }
+@media (min-width: 768px) {
+  .About__me {
+    width: 60%;
+  }
+}
 @media (min-width: 840px) {
   .About__me {
     width: 50%;

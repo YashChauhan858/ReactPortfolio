@@ -7,7 +7,7 @@ function Myway() {
   return (
     <div className="myway">
       <div className="myway__header">
-        <h1>The way I like it.</h1>
+        <h1>THE WAY I LIKE IT</h1>
       </div>
       <div className="card__holder">
         <div className="myway__cards">
