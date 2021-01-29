@@ -42,7 +42,7 @@ function App() {
             <h1
               data-aos="fade-left"
               data-aos-easing="ease-in"
-              data-aos-duration="500"
+              data-aos-duration="600"
             >
               Hi! My name <br />
               is Yash Chauhan.
