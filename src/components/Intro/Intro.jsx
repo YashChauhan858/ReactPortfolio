@@ -51,7 +51,6 @@ function Intro() {
           className="star rellax"
           data-rellax-speed="-3"
           data-rellax-zindex="2"
-          data-rellax-zindex="5"
           src={star}
           alt="logozzz"
         />
