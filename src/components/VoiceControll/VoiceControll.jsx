@@ -16,6 +16,8 @@ const VoiceControll = () => {
           "Go to *",
           "open *",
           "can you open * for me",
+          "can you please open * for me",
+          "can you please open * project for me",
           "let me view * ",
           "let me view * project",
           "hello can you open * for me",
@@ -23,14 +25,26 @@ const VoiceControll = () => {
           "*",
         ],
         callback: (star) => {
+          console.log(star);
+          if (star.includes("netflix") || star.includes("Netflix")) {
+            console.log("hii");
+            window.open("https://netflix-clone-75f6a.firebaseapp.com/");
+          }
+          if (star.includes("amazon") || star.includes("Amazon")) {
+            window.open("https://clone-9b1fc.web.app/");
+          }
           if (
-            star === "netflix" ||
-            star === "Netflix" ||
-            star.includes("netflix")
+            star.includes("tracker") ||
+            star.includes("Tracker") ||
+            star.includes("Covid Tracker") ||
+            star.includes("covid tracker") ||
+            star.includes("covid") ||
+            star.includes("Covid project")
           ) {
-            alert("yessss you got it bro");
+            window.open("https://covid-19-tracker-723c4.web.app/");
           }
         },
+        // isFuzzyMatch: true,
       },
     ]);
   }, []);
