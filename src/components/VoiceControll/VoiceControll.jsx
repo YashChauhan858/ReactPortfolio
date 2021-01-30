@@ -44,7 +44,6 @@ const VoiceControll = () => {
             window.open("https://covid-19-tracker-723c4.web.app/");
           }
         },
-        // isFuzzyMatch: true,
       },
     ]);
   }, []);
