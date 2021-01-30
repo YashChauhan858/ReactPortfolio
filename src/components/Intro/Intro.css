@@ -100,7 +100,7 @@
 .dragonball {
   top: 6rem;
   right: 12rem;
-  transition: all 500ms ease-in-out;
+  transition: right 500ms ease-in-out;
 }
 .wingsOfFreedom {
   top: 16rem;
