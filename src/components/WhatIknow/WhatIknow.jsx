@@ -1,8 +1,8 @@
 import React from "react";
 import "./WhatIknow.css";
-import Python from "./images/pythonLogo.svg";
+import Python from "./images/python.svg";
 import ReactLogo from "./images/react.svg";
-import JavaScript from "./images/javascriptLogo.svg";
+import JavaScript from "./images/javascript.svg";
 import Mongodb from "./images/mongodb.svg";
 import Jquery from "./images/jquery.svg";
 import HtmlCss from "./images/htmlcss.svg";
