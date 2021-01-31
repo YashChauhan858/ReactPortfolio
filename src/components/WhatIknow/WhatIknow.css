@@ -1,11 +1,10 @@
 .info__container {
   width: 100%;
-  /* background-image: url("./images/Black-Animation-Background.svg"); */
-  /* background-position: 100% 100%; */
-  /* background-repeat: repeat; */
-  /* background-attachment: fixed; */
-  /* background-size: contain; */
-  background-color: #0b0c10;
+  background-image: url("./images/altumcode-P2SkP_PXhlU-unsplash.jpg");
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   padding-top: 0.5rem;
   margin-top: 2rem;
 }
