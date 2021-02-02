@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutMe.css";
+
 const AboutMe = () => {
   return (
     <div className="About__me">
@@ -42,14 +43,12 @@ const AboutMe = () => {
           </h1>
         </div>
         <p data-aos="zoom-in" data-aos-easing="ease-in" data-aos-duration="500">
-          I the type of guy who is fascinated by the power of code and how much
-          it is changing the shape of our existence and our reality as a human
-          and how much it has boosted and will be boosting our growth. Only to
-          focus on one goal, that is how to become an interstellar specie and
-          eventually leaving our beautiful planet for finding one because there
-          will be a time where we have to leave our home and in my opinion
-          coding will be the biggest weapon in our arsenal to achieve that one
-          solo goal.
+          I am the type of guy who is always intrigued by the power of code and
+          How much it is changing the shape of our existence and reality as a
+          Human being and how much it has boosted and will be boosting our
+          Growth in the future, and it is a must-have weapon in our arsenal to
+          make all the cool, productive and robust things that can bring good to
+          mankind.
         </p>
       </div>
     </div>

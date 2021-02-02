@@ -27,11 +27,10 @@
   position: absolute;
   top: 5rem;
   left: -0.5rem;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   background-color: transparent;
-  border: 0.9rem solid #f565f0;
-  /* border: 0.9rem solid #66fcf6; */
+  border: 0.6rem solid #f565f0;
   border-radius: 0.3rem;
   z-index: -1;
   animation-name: square--rotation;
@@ -54,7 +53,7 @@
   height: 5rem;
   width: 5rem;
   background-color: transparent;
-  border: 0.9rem solid #f76464;
+  border: 0.6rem solid #f76464;
   border-radius: 50%;
   z-index: -1;
   animation-name: circle--floating;
@@ -75,10 +74,10 @@
 }
 .xShape {
   position: absolute;
-  bottom: -4rem;
+  bottom: -3.1rem;
   right: 20rem;
-  height: 12rem;
-  width: 12rem;
+  height: 10rem;
+  width: 10rem;
   z-index: -1;
   animation-name: xShape--rotation;
   animation-duration: 5s;
@@ -87,17 +86,21 @@
 }
 .vertical {
   position: absolute;
-  left: 5rem;
+  left: 4.5rem;
   height: 100%;
-  width: 1.4rem;
+  width: 1rem;
   background-color: #6682c4;
+  border-radius: 2rem;
+  transition: all 250ms ease-in;
 }
 .horizontal {
   position: absolute;
-  top: 5rem;
+  top: 4.5rem;
   width: 100%;
-  height: 1.4rem;
+  height: 1rem;
   background-color: #6682c4;
+  border-radius: 2rem;
+  transition: all 250ms ease-in;
 }
 @keyframes xShape--rotation {
   0% {
@@ -116,7 +119,7 @@
   right: -6rem;
   z-index: -1;
   animation-name: triangle--animation;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
@@ -133,7 +136,7 @@
 }
 @media (min-width: 768px) {
   .About__me {
-    width: 60%;
+    width: 50%;
   }
 }
 @media (min-width: 840px) {
@@ -149,32 +152,36 @@
     border-radius: 3rem;
   }
   .square {
-    height: 10rem;
-    width: 10rem;
-    border-width: 1.9rem;
+    height: 7rem;
+    width: 7rem;
+    border-width: 1rem;
     top: 10rem;
   }
   .circle {
     top: 16rem;
     right: -4rem;
-    height: 12rem;
-    width: 12rem;
+    height: 8rem;
+    width: 8rem;
     background-color: transparent;
-    border: 1.9rem solid #f76464;
+    border: 1rem solid #f76464;
   }
   .xShape {
-    bottom: -1.8rem;
+    bottom: -1.1rem;
     right: 40rem;
-    height: 12rem;
-    width: 12rem;
+    height: 9rem;
+    width: 9rem;
   }
   .vertical {
-    width: 1.5rem;
+    width: 1rem;
+    left: 4rem;
     background-color: #6682c4;
+    border-radius: 2rem;
   }
   .horizontal {
-    height: 1.5rem;
+    height: 1rem;
+    top: 4rem;
     background-color: #6682c4;
+    border-radius: 2rem;
   }
   @keyframes xShape--rotation {
     0% {

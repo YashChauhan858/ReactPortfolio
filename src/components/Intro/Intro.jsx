@@ -201,7 +201,7 @@ function Intro() {
         <div className="ina__image"></div>
         <div className="ina__aboutme">
           <h1>Hi, I am Yash </h1>
-          <p>And I am a Front-End Dev</p>
+          <p>And I am a UI Developer</p>
           <a
             className="contactMe"
             href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yashchauhan858@gmail.com"
