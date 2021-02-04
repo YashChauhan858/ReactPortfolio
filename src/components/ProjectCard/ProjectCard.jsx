@@ -58,8 +58,8 @@ function ProjectCard() {
               Here I have created a Netflix clone using react.js and learned
               some new things about the technology along the way.
             </h3>
-            <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Click on the baby for more info</h3>
+            <h3 className="above840">Hover over the card for more info</h3>
+            <h3 className="below840">Click on the card for more info</h3>
           </div>
         </div>
       </div>
@@ -77,8 +77,8 @@ function ProjectCard() {
               In this I learned a lot of crucial stuff like to react context
               API, firebase auth and reat-router-dom module.
             </h3>
-            <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Click on the baby for more info</h3>
+            <h3 className="above840">Hover over the card for more info</h3>
+            <h3 className="below840">Click on the card for more info</h3>
           </div>
           <div class="flip-card">
             <div class="flip-card-inner">
@@ -167,8 +167,8 @@ function ProjectCard() {
               learned about mobile first designing and some new cars and react
               tricks and has added dark mode .
             </h3>
-            <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Click on the baby for more info</h3>
+            <h3 className="above840">Hover over the card for more info</h3>
+            <h3 className="below840">Click on the card for more info</h3>
           </div>
         </div>
       </div>
@@ -183,8 +183,8 @@ function ProjectCard() {
           <div className="info right">
             <h1>Previous Portfolio</h1>
             <h3>I made this when I started my front-end journey.</h3>
-            <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Click on the baby for more info</h3>
+            <h3 className="above840">Hover over the card for more info</h3>
+            <h3 className="below840">Click on the card for more info</h3>
           </div>
           <div class="flip-card">
             <div class="flip-card-inner">
