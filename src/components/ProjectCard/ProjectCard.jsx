@@ -59,7 +59,7 @@ function ProjectCard() {
               some new things about the technology along the way.
             </h3>
             <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Clock on the baby for more info</h3>
+            <h3 className="below840">Click on the baby for more info</h3>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ function ProjectCard() {
               API, firebase auth and reat-router-dom module.
             </h3>
             <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Clock on the baby for more info</h3>
+            <h3 className="below840">Click on the baby for more info</h3>
           </div>
           <div class="flip-card">
             <div class="flip-card-inner">
@@ -168,7 +168,7 @@ function ProjectCard() {
               tricks and has added dark mode .
             </h3>
             <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Clock on the baby for more info</h3>
+            <h3 className="below840">Click on the baby for more info</h3>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ function ProjectCard() {
             <h1>Previous Portfolio</h1>
             <h3>I made this when I started my front-end journey.</h3>
             <h3 className="above840">Hover over the baby for more info</h3>
-            <h3 className="below840">Clock on the baby for more info</h3>
+            <h3 className="below840">Click on the baby for more info</h3>
           </div>
           <div class="flip-card">
             <div class="flip-card-inner">
