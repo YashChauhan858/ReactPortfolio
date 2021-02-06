@@ -21,6 +21,8 @@ import Goku__Kanji from "./images/goku's__Kanji.svg";
 import wingsOfFreedom from "./images/wingsOfFreedom.svg";
 import upAndDown from "./images/up-and-down.svg";
 import Modal from "../Modal/Modal";
+// Typing effect module
+import Typed from "react-typed";
 function Intro() {
   new Rellax(".rellax");
   const [myWork, setMyWork] = useState([]);
@@ -201,7 +203,15 @@ function Intro() {
         <div className="ina__image"></div>
         <div className="ina__aboutme">
           <h1>Hi, I am Yash </h1>
-          <p>And I am a UI Developer</p>
+          <p>
+            And I am a
+            <Typed
+              strings={[" UI Developer", " Programmer"]}
+              typeSpeed={70}
+              backSpeed={50}
+              loop
+            />
+          </p>
           <a
             className="contactMe"
             href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yashchauhan858@gmail.com"
