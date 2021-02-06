@@ -204,11 +204,11 @@ function Intro() {
         <div className="ina__aboutme">
           <h1>Hi, I am Yash </h1>
           <p>
-            And I am a
             <Typed
-              strings={[" UI Developer", " Programmer"]}
+              strings={["And I am a UI Developer", "And I am a Programmer"]}
               typeSpeed={70}
               backSpeed={50}
+              smartBackspace
               loop
             />
           </p>
