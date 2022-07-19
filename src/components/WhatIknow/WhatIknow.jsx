@@ -3,11 +3,12 @@ import "./WhatIknow.css";
 import Python from "./images/python.svg";
 import ReactLogo from "./images/react.svg";
 import JavaScript from "./images/javascript.svg";
-import Mongodb from "./images/mongodb.svg";
-import Jquery from "./images/jquery.svg";
-import HtmlCss from "./images/htmlcss.svg";
 import Node from "./images/node.svg";
-import ML from "./images/machineLearning.svg";
+import GraphQL from "./images/GraphQL.png";
+import webpack from "./images/webpack.png";
+import docker from "./images/docker.png";
+import ts from "./images/ts.png";
+import nextjs from "./images/nextjs.png";
 
 function WhatIknow() {
   return (
@@ -30,6 +31,10 @@ function WhatIknow() {
             <h4 className="tooltip">React Js</h4>
           </div>
           <div className="img__container">
+            <img alt="logo__img" className="container__images" src={nextjs} />
+            <h4 className="tooltip">Nextjs</h4>
+          </div>
+          <div className="img__container">
             <img alt="logo__img" className="container__images" src={Node} />
             <h4 className="tooltip">Node Js</h4>
           </div>
@@ -42,20 +47,20 @@ function WhatIknow() {
             <h4 className="tooltip">Java Script</h4>
           </div>
           <div className="img__container">
-            <img alt="logo__img" className="container__images" src={Mongodb} />
-            <h4 className="tooltip">MongoDb</h4>
+            <img alt="logo__img" className="container__images" src={GraphQL} />
+            <h4 className="tooltip">GraphQL</h4>
           </div>
           <div className="img__container">
-            <img alt="logo__img" className="container__images" src={HtmlCss} />
-            <h4 className="tooltip">Html Css</h4>
+            <img alt="logo__img" className="container__images" src={ts} />
+            <h4 className="tooltip">TypeScript</h4>
           </div>
           <div className="img__container">
-            <img alt="logo__img" className="container__images" src={Jquery} />
-            <h4 className="tooltip">Jquery</h4>
+            <img alt="logo__img" className="container__images" src={docker} />
+            <h4 className="tooltip">Docker</h4>
           </div>
           <div className="img__container">
-            <img alt="logo__img" className="container__images" src={ML} />
-            <h4 className="tooltip">Machine Learning</h4>
+            <img alt="logo__img" className="container__images" src={webpack} />
+            <h4 className="tooltip">webpack</h4>
           </div>
           <div className="img__container">
             <img alt="logo__img" className="container__images" src={Python} />

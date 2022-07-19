@@ -21,8 +21,9 @@ import Goku__Kanji from "./images/goku's__Kanji.svg";
 import wingsOfFreedom from "./images/wingsOfFreedom.svg";
 import upAndDown from "./images/up-and-down.svg";
 import Modal from "../Modal/Modal";
-// Typing effect module
+import PDF from "./Resume.pdf";
 import Typed from "react-typed";
+
 function Intro() {
   new Rellax(".rellax");
   const [myWork, setMyWork] = useState([]);
@@ -176,12 +177,7 @@ function Intro() {
           </div>
         </div>
         <div className="header__2">
-          <a
-            href="../../Downloadables/Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            download="MyResume.pdf"
-          >
+          <a href={PDF} download>
             <h2>Resume</h2>
           </a>
           <IconButton
